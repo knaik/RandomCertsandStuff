@@ -1,0 +1,6 @@
+ffprobe  07\ Greece\ Outro.m4a -v quiet -show_format | grep bit_rate | cut -d "=" -f 2 | numfmt --to=iec
+metadatainfo      song name  quiet ffprobe   id3tag    show just bitrate  cuts to keep   covert to human readable bitrate
+including streams             output          list     in bytes             in bytes
+                                                                       usually is bit_rate=....
+                                                                       
+                                                                       07 is the drake song
